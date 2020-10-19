@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2020, 9:11:23 PM
+    Author     : ThangCoi
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 0 24px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.content{
+    margin: 0 20px 50px 20px;
+}
+
+.left{
+    width: 700px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    vertical-align: top;
+}
+
+h3{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.page-title{
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+a{
+    color: black;
+}
+
+.section1{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px gray dotted;
+}
+
+.icon{
+    width: 50px;
+    padding-right: 15px;
+}
+
+.small-title{
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.date{
+    float: right;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.img1{
+    width: 645px;
+    border-radius: 10px;
+}
+
+.img2{
+    width: 310px;
+    border-radius: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+.description{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.overview{
+    margin-left: 50%;
+    font-family: sans-serif;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.section2{
+    margin-top: 20px;
+}
+
+.table-head{
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+.date-title{
+    float: right;
+}
+
+.table-data{
+    padding: 8px;
+    border-top: 1px solid gray;
+    width: 28%;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+#like:before{
+    content: url(../img/icon3.JPG);
+    margin-right: 10px;
+}
+
+#comment::before{
+    content: url(../img/icon4.JPG);
+    margin-right: 10px;
+}
+
+.index{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.current{
+    font-weight: bold;
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+.img3{
+    width: 330px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.section3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.send{
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 3px gray dotted;
+}
+
+input{
+    height: 35px;
+    width: 340px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+textarea{
+    height: 160px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+button{
+    height: 35px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 18px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#name{
+    margin-right: 10px;
+}
+
+#notice{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sent{
+    background-color: yellow;
+    pointer-events: none;
+}
+
+.sent-mess{
+    background-color: gray;
+    pointer-events: none;
+}
+
+.clicked{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.success{
+    background-color: #e1f5e1;
+}
+
+.error{
+    background-color: #ffd4d4;
+}

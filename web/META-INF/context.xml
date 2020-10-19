@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Context>
+    <Environment name="myConnection" value="jdbc:sqlserver://localhost:1433;databasename=Fashion;" type="java.lang.String"/>
+    <Environment name="imagePath" value="img/" type="java.lang.String"/>
+    <Environment name="username" value="sa" type="java.lang.String"/>
+    <Environment name="password" value="123456" type="java.lang.String"/>
+</Context>

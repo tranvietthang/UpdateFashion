@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2020, 6:02:35 PM
+    Author     : ThangCoi
+*/
+
+.box{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.share{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.share-on{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#fb:before{
+    content: url("../img/fb.JPG");
+    margin-right: 5px;
+}
+
+#tw:before{
+    content: url("../img/tw.JPG");
+    margin-right: 5px;
+}
+
+#gg:before{
+    content: url("../img/gg.JPG");
+    margin-right: 5px;
+}
